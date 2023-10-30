@@ -1,0 +1,233 @@
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1150px;
+  }
+}
+
+@media screen and (min-width: 1399px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+
+@media screen and (min-width: 1499px) {
+  .container {
+    max-width: 1450px;
+  }
+} 
+
+@media screen and (min-width: 1799px) {
+  .container {
+    max-width: 1650px;
+  }
+}
+
+@media screen and (max-width: 1799px) {
+  html {
+    font-size: 9px;
+  }
+}
+
+@media screen and (max-width: 1599px) {
+  html {
+    font-size: 8px;
+  }
+
+  :root {
+    --font25: 24px;
+    --font22: 20px;
+    --font20: 18px;
+    --font18: 16px;
+    --font16: 14px;
+    --font14: 12px;
+  }
+
+  .hero {
+    padding: 19rem 0 10rem;
+  }
+}
+
+@media screen and (max-width: 1399px) {
+  html {
+    font-size: 7px;
+  }
+}
+
+@media screen and (max-width: 1099px) {
+  html {
+    font-size: 6px;
+  }
+
+  :root {
+    --font25: 22px;
+    --font22: 18px;
+    --font20: 16px;
+    --font18: 14px;
+    --font16: 12px;
+  }
+  .hero {
+    min-height: unset;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .rummy-app-block {
+    padding-bottom: 0;
+  }
+  .rummy-app-download {
+    position: static;
+    max-width: 90%;
+    margin: 0 auto;
+    display: block;
+  }
+  .about-us img {
+    max-width: 200px;
+  }
+  .rummy-accordion-wrapper .accordion-button {
+    margin-bottom: 0;
+    min-height: 55px;
+  }
+  .rummy-accordion-wrapper .accordion-item {
+    margin-bottom: 15px;
+  }
+  .rummy-accordion-wrapper .accordion-button svg {
+    height: 15px;
+    width: auto;
+  }
+  .rummy-accordion-wrapper .accordion-body {
+    margin-top: 15px;
+    padding: 15px;
+  }
+  .col-footer-head {
+    max-width: 100%;
+  }
+  .bonus {
+    margin-left: 10px;
+  }
+  .accordion-faq .accordion-button::after{
+    width: 14px;
+    height: 14px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .hero {
+    background-image: url('../images/bg/hero-mob.png');
+  }
+  .hero-title-wrapper {
+    max-width: 100%;
+  }
+  .rummy-app-block {
+    padding: 20px 20px 0 20px;
+    border-radius: 18px;
+    background-image: url('../images/bg/download-app-bg-mob.jpg');
+  }
+  .accordion-faq .accordion-item {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .surprise-game-block img {
+    max-width: 98px;
+    height: auto;
+  }
+  .surprise-game-row {
+    gap: 10px;
+  }
+  .rummy-features-row {
+    gap: 22px;
+  }
+  .rummy-app-download {
+    max-width: 120%;
+    margin-left: -17%;
+  }
+  .hero .btn {
+    height: 42px;
+  }
+  .testimonials .swiper-pagination {
+    display: block;
+  }
+}
+@media screen and (max-width: 575px) {
+  .space-small-bottom {
+    padding-bottom: 20px;
+  }
+  .space-small-top {
+    padding-top: 20px;
+  }
+  .bonus {
+    margin-bottom: 15px;
+    margin-left: 0;
+  }
+  .bonus img {
+    max-width: 92px;
+    height: auto;
+  }
+  .bonus .h3 {
+    font-size: 14px;
+  }
+  .bonus .deposit-price {
+    font-size: 38px;
+  }
+  .bonus .h4 {
+    font-size: 13px;
+  }
+  .hero h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+  .h2, h2 {
+    font-size: 22px;
+  }
+  .feature-block {
+    width: 100%;
+    max-width: 100%;
+  }
+  .feature-block span {
+    font-size: 20px;
+  }
+  .about-us img {
+    max-width: 100%;
+  }
+  .learn-to-play-btn {
+    width: 55px;
+    height: 55px;
+  }
+  .learn-to-play-btn svg {
+    height: 21px;
+    width: auto;
+  }
+  .learn-to-play-btn:after {
+    width: 80px;
+    height: 80px;
+  }
+  .learn-to-play {
+    min-height: 250px;
+  }
+  .learn-to-play h2 {
+    font-size: 18px;
+  }
+  .testimonials .coma {
+    width: 96px;
+    height: auto;
+  }
+  .testimonials .coma2 {
+    padding-top: 100px;
+  }
+  .testimonials .swiper-button {
+    display: none;
+  }
+  .testimonials .swiper-slide {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 349px) {
+  .logo {
+    max-width: 90px;
+  }
+  .multiuser svg {
+    width: 20px;
+  }
+  .p.agreement {
+    font-size: 11px;
+  }
+}
