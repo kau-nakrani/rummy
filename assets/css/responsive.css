@@ -127,6 +127,10 @@
     width: 14px;
     height: 14px;
   }
+  .video-modal-wrap .modal-lg{
+    max-width: 95%;
+    margin: 0 auto;
+  }
 }
 @media screen and (max-width: 767px) {
   .hero {
@@ -236,6 +240,9 @@
   }
   .testimonials .swiper-slide {
     padding: 0;
+  }
+  .video-modal-wrap iframe{
+    height: 350px;
   }
 }
 

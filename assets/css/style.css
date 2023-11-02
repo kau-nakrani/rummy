@@ -1,3 +1,4 @@
+/* default css start */
 @font-face {
   font-family: 'Mona Sans';
   src: url('../fonts/MonaSans-Black.woff2') format('woff2'),
@@ -200,6 +201,10 @@ img {
   padding-bottom: 8rem;
 }
 
+.cursor-pointer{
+  cursor: pointer;
+}
+
 .fw-900 {
   font-weight: 900;
 }
@@ -255,7 +260,8 @@ img {
   background-color: #dbd1d1;
   color: var(--blackClr);
 }
-
+/* default css end */
+/* header css start */
 header {
   background-color: rgba(0, 0, 0, 0.4);
   padding: 2rem 0;
@@ -302,7 +308,7 @@ header .dropdown-item:active {
   background-color: var(--primaryClr);
   color: var(--whiteClr);
 }
-
+/* hero css start */
 .hero {
   background: var(--blackClr) url('../images/bg/hero.jpg') top right no-repeat;
   background-size: cover;
@@ -354,7 +360,7 @@ header .dropdown-item:active {
   font-weight: 900;
   line-height: 1.2;
 }
-
+/* reason-rummy css start */
 .reason-rummy-block {
   padding: 4rem 3.6rem 3.6rem 3.6rem;
   background-color: #FAF8F8;
@@ -401,7 +407,7 @@ header .dropdown-item:active {
   background-image: url('../images/bg/download-app-bg.jpg');
   background-size: cover;
 }
-
+/* surprise-game css start */
 .surprise-game {
   position: relative;
   overflow: hidden;
@@ -466,7 +472,7 @@ header .dropdown-item:active {
 .surprise-game-block span {
   /* white-space: nowrap; */
 }
-
+/* learn-to-play css start */
 .learn-to-play {
   min-height: 62rem;
   background: #150909 url('../images/bg/learn-to-play.jpg') center center no-repeat;
@@ -506,7 +512,7 @@ header .dropdown-item:active {
   background: var(--whiteClr) url('../images/bg/about.jpg') center center no-repeat;
   background-size: cover;
 }
-
+/* rummy-tab css start */
 .rummy-tab-wrapper .nav-pills {
   margin-right: 20px;
   min-width: 40rem;
@@ -572,7 +578,7 @@ header .dropdown-item:active {
 .rummy-tab-wrapper .note {
   color: #D7364C;
 }
-
+/* see-on css start */
 .see-on {
   background-color: #F5F5F5;
 }
@@ -625,7 +631,7 @@ header .dropdown-item:active {
   background: var(--whiteClr) url('../images/bg/earning-method.jpg') center center no-repeat;
   background-size: cover;
 }
-
+/* testimonials css start */
 .testimonials {
   background: var(--whiteClr) url('../images/bg/testimonials.svg') top center no-repeat;
   background-size: cover;
@@ -693,7 +699,7 @@ header .dropdown-item:active {
 .testimonial-text {
   max-width: 1150px;
 }
-
+/* win-price css start */
 .win-price {
   border-radius: 44px;
   background: #E8F8F5;
@@ -711,7 +717,7 @@ header .dropdown-item:active {
 .win-price:hover {
   background: #c3f3ea;
 }
-
+/* feature css start */
 .rummy-features {
   background-color: #EFEFEF;
 }
@@ -742,7 +748,7 @@ header .dropdown-item:active {
   max-width: 7.5rem;
   max-height: 7.5rem;
 }
-
+/* accordion css start */
 .accordion-faq .accordion-item {
   border-width: 1px 0 1px 0;
   border-radius: 0;
@@ -782,7 +788,7 @@ header .dropdown-item:active {
 .accordion-faq .accordion-body p:last-child {
   margin-bottom: 0;
 }
-
+/* footer css start */
 .col-footer-head {
   max-width: 23%;
 }
@@ -827,4 +833,21 @@ header .dropdown-item:active {
 
 .footer-bottom p {
   color: #A6A6A6;
+}
+/* modal css start */
+.modal-close{
+  width: 35px;
+  height: 35px;
+  background-color: var(--primaryClr);
+  border-radius: 100%;
+  color: var(--whiteClr);
+  top: -40px;
+  right: 0;
+  transition: all 0.3s;
+}
+.modal-close:hover{
+  transform: scale(1.05);
+}
+.video-modal-wrap iframe{
+  height: 400px;
 }
